@@ -2,7 +2,7 @@ body {
 	padding: 0;
 	font-family:'Athiti', sans-serif;
 	font-size: 18px;
-	margin: 0px 5px;
+	margin: 0px 0px;
 }
 
 .container {
@@ -10,6 +10,9 @@ body {
 	flex-wrap: wrap;
 	width: 100%;
 	flex-direction: row;
+	position: fixed;
+	top: 0;
+	border-bottom: 1px solid white;
 	background-color: #d35757;
 }
 
@@ -27,7 +30,7 @@ body {
 }
 .menu li {
 	list-style-type: none;
-	padding: 20px;
+	padding: 15px;
 	
 	
 }
@@ -36,7 +39,8 @@ body {
 .menu a {
 	text-decoration: none;
 	color: #f1ebeb;
-	font-size: 4.2vmin;
+	font-size: 0.9em;
+	font-weight: 400;
 	display: inline-block;
 	transition: 0.5s;
 	 border-top: 2px solid #d35757;
@@ -55,7 +59,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	min-height: 250px;
+	min-height: 150px;
+	margin-top: 3.36em;
 	justify-content: center;
 	}
 
@@ -141,7 +146,7 @@ padding: 10px;
 
 .tech-skill p {
 		font-size: 1em;
-		margin: 10px 5px;
+		margin: 10px 10px;
 		text-align: center;
 	}
 
@@ -164,7 +169,7 @@ padding: 10px;
 .project p {
 	font-size: 1em;
     text-align: center; 
-    margin: 10px 5px;
+    margin: 10px 10px;
 	}
 
 .project h2{
@@ -200,7 +205,7 @@ padding: 10px;
 
 .connect-me p {
 	font-size: 1em;
-    margin: 10px 5px;
+    margin: 10px 10px;
     text-align: center;
 }
 
@@ -241,20 +246,19 @@ footer li {
 
 @media screen and (min-width: 481px) and (max-width: 992px) {
 
-	body {
-		margin: 0px 15px;
-	}
-
 	.container {
 		justify-content: center;
 	}
 	.menu {
 	justify-content: flex-end;
 }
-
 	.menu a {
-	/*font-size: 1.3em;*/
- }
+		font-size: 1.2em;
+	}
+	.banner {
+		margin-top: 3.85em;
+	}
+
 	.photo-content h2 {
 		font-size: 1.5em;
 	}
@@ -263,42 +267,35 @@ footer li {
 	font-size: 1.4em;
 }
 	.intro p {
-		font-size: 1.4em;
+		font-size: 1.6em;
 	}
 
-	/*.first-two {
-		flex-direction: row;
-	}
 
-	.tech-skill {
-		width: 50%;
-	}
-*/
 	.tech-skill p {
 		
-		font-size: 1.4em;
+		font-size: 1.6em;
 	}
 
 	.tech-skill li {
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 
 	.project p {
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 
 	.project li {
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 	.connect-me p {
-	font-size: 1.4em;
+	font-size: 1.6em;
 }
 
 .connect-me li {
 	list-style-type: none;
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 footer {
@@ -309,9 +306,6 @@ footer {
 
 @media screen and (min-width: 993px) {
 
-	body {
-		margin: 0px 20px;
-	}
 
 	.container {
 		justify-content: center;
@@ -320,9 +314,12 @@ footer {
 		.menu {
 	justify-content: flex-end;
 }
-	/*.menu a {
+	.menu a {
 	font-size: 1.5em;
-}*/
+}
+.banner {
+	margin-top: 4.34em;
+}
 
 .photo-content h2 {
 	font-size: 1.5em;
@@ -333,7 +330,7 @@ font-size: 1.7em;
 }
 
 	.intro p {
-	font-size: 1.5em;
+	font-size: 1.7em;
 	text-align: center;
 }
 	.first-two {
@@ -354,7 +351,7 @@ font-size: 1.7em;
 }
 
 .tech-skill p {
-	font-size: 1.5em;
+	font-size: 1.7em;
 	margin: 10px 5px;
 	text-align: center;
 }
@@ -374,7 +371,7 @@ font-size: 1.7em;
     border-style: solid;
 }
 	.project p {
-	font-size: 1.5em;
+	font-size: 1.7em;
 	text-align: center;
 	margin: 10px 5px;
 }
@@ -396,7 +393,7 @@ font-size: 1.7em;
 }
 
 .connect-me p {
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 	.connect-me li {
 	font-size: 1.5em;

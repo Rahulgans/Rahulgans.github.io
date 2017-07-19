@@ -216,9 +216,9 @@ padding: 10px;
 
 
 .connect-me a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #f1ebeb;
-	padding: 15px;
+	padding: 10px 15px;
 }
 	footer {
 	display: flex;

@@ -1,0 +1,415 @@
+body {
+	padding: 0;
+	font-family:'Athiti', sans-serif;
+	font-size: 18px;
+	margin: 0px 5px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	flex-direction: row;
+	background-color: #d35757;
+}
+
+.menu {
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+    justify-content: center;
+	
+}
+.menu ul {
+	padding: 0px;
+	display: flex;
+	margin: 0px;
+}
+.menu li {
+	list-style-type: none;
+	padding: 20px;
+	
+	
+}
+
+
+.menu a {
+	text-decoration: none;
+	color: #f1ebeb;
+	font-size: 4.2vmin;
+	display: inline-block;
+	transition: 0.5s;
+	 border-top: 2px solid #d35757;
+  border-bottom: 2px solid #d35757;
+	
+}
+.menu a:hover {
+	border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+
+.banner {
+	display:flex;
+	background-image:url("assignment-pics/black_background_wood-t2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 250px;
+	justify-content: center;
+	}
+
+.photo-content {
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+	margin-top:40px; 
+	align-items: center;
+	}
+
+.photo-content h2 {
+	font-size: 1em;
+	color: whitesmoke;
+}
+
+.rounded {
+	border-radius: 50%;
+	width:25%;
+}
+	
+.primary-content {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	justify-content: center;
+	margin: 20px auto;
+    background-color: white;
+}
+
+.intro {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	color: black;
+	
+}
+
+.intro h1 {
+margin: 0px;
+text-align: center;
+font-size: 1em;
+padding: 10px;
+}
+
+.intro p {
+		font-size: 1em;
+	text-align: center;
+}
+
+.sec-menu {
+	display:flex;
+	flex-direction: column;
+    width: 100%;
+    background-image: url(assignment-pics/black_background_wood-t2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+
+}
+
+.first-two {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+	}
+
+	.img-adjust {
+		width: 15vmin;
+	}
+
+
+.tech-skill {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+
+.tech-skill h2 {
+	font-size: 1.3em;
+}
+
+.tech-skill p {
+		font-size: 1em;
+		margin: 10px 5px;
+		text-align: center;
+	}
+
+.tech-skill li {
+		font-size: 1em;
+		list-style-type: disc;
+	}
+
+
+.project {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	border-width: 1px 0px;
+    border-style: solid;
+    align-items: center;
+    margin: 0px ;
+	}
+
+.project p {
+	font-size: 1em;
+    text-align: center; 
+    margin: 10px 5px;
+	}
+
+.project h2{
+	font-size: 1.3em;
+}
+
+.project ul {
+	padding-left: 0px;
+}
+
+.project li {
+	list-style-type: disc;
+	font-size: 1em;
+}
+
+.project a {
+	text-decoration: none;
+	color:#f1ebeb;
+	padding: 0px 10px;
+}
+
+.connect-me {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border-width: 1px 0px;
+    border-style: solid;
+}
+.connect-me h2{
+	font-size: 1.3em;
+}
+
+.connect-me p {
+	font-size: 1em;
+    margin: 10px 5px;
+    text-align: center;
+}
+
+.connect-me ul {
+	display: flex;
+	padding-left: 0px;
+}
+
+.connect-me li {
+	list-style-type: none;
+	font-size: 1em;
+}
+
+
+.connect-me a {
+	text-decoration: none;
+	color: #f1ebeb;
+	padding: 15px;
+}
+	footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: #d35757;
+	color: #f1ebeb;
+	text-align: center;
+	font-size: 4vmin;
+}
+
+ footer ul {
+    	padding: 0px;
+    }
+
+footer li {
+	list-style-type: none;
+	color: #f1ebeb;
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+
+	body {
+		margin: 0px 15px;
+	}
+
+	.container {
+		justify-content: center;
+	}
+	.menu {
+	justify-content: flex-end;
+}
+
+	.menu a {
+	/*font-size: 1.3em;*/
+ }
+	.photo-content h2 {
+		font-size: 1.5em;
+	}
+
+.intro h1 {
+	font-size: 1.4em;
+}
+	.intro p {
+		font-size: 1.4em;
+	}
+
+	/*.first-two {
+		flex-direction: row;
+	}
+
+	.tech-skill {
+		width: 50%;
+	}
+*/
+	.tech-skill p {
+		
+		font-size: 1.4em;
+	}
+
+	.tech-skill li {
+	font-size: 1.3em;
+}
+
+
+	.project p {
+	font-size: 1.4em;
+}
+
+	.project li {
+	font-size: 1.3em;
+}
+
+	.connect-me p {
+	font-size: 1.4em;
+}
+
+.connect-me li {
+	list-style-type: none;
+	font-size: 1.3em;
+}
+
+footer {
+	align-items: center;
+	/*font-size: 1.2em*/;
+}
+}
+
+@media screen and (min-width: 993px) {
+
+	body {
+		margin: 0px 20px;
+	}
+
+	.container {
+		justify-content: center;
+	}
+
+		.menu {
+	justify-content: flex-end;
+}
+	/*.menu a {
+	font-size: 1.5em;
+}*/
+
+.photo-content h2 {
+	font-size: 1.5em;
+}
+
+	.intro h1 {
+font-size: 1.7em;
+}
+
+	.intro p {
+	font-size: 1.5em;
+	text-align: center;
+}
+	.first-two {
+	display: flex;
+	flex-direction: row;
+
+	}
+
+
+	.tech-skill {
+
+	width: 50%;
+}
+
+
+.tech-skill h2{
+	font-size: 1.7em;
+}
+
+.tech-skill p {
+	font-size: 1.5em;
+	margin: 10px 5px;
+	text-align: center;
+}
+
+.tech-skill li {
+	list-style-type: disc;
+	font-size: 1.5em;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;    
+	margin: 0px 10px;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+}
+	.project p {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 10px 5px;
+}
+.project h2 {
+	font-size: 1.7em;
+}
+
+.project li {
+	list-style-type: disc;
+	font-size: 1.5em;
+}
+
+.connect-me {
+    border-width: 1px 0px;
+    border-style: solid;
+}
+	.connect-me h2 {
+	font-size: 1.7em;
+}
+
+.connect-me p {
+	font-size: 1.5em;
+}
+	.connect-me li {
+	font-size: 1.5em;
+}
+
+	footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*font-size: 1.5em;*/
+}
+	footer ul {
+	padding-left: 0px;
+}
+
+}
